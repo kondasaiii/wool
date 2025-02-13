@@ -1,0 +1,133 @@
+/* Resetting default margin and padding for consistency */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Improved spacing for the banner image */
+.banner-img {
+  margin-top: 40px; /* Adjusted margin for better spacing */
+}
+
+/* Improved typography and spacing for the heading */
+.home-page h1 {
+  color: #333; /* Darkened the text color for better readability */
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px; /* Added margin for separation from other elements */
+  text-align: center; /* Centered the text for a modern look */
+}
+
+/* Improved layout for home page cards */
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centered the cards horizontally */
+}
+
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.1);
+  width: 300px; /* Adjusted width for better spacing */
+  margin: 20px; /* Added margin for separation between cards */
+  border-radius: 20px; /* Added border-radius for a more rounded look */
+  padding: 20px; /* Added padding for better content spacing */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Added a more pronounced box-shadow */
+  transform-origin: center bottom; /* Adjusted transform-origin for a lifting effect */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Added transitions for a smoother effect */
+}
+
+.home-page .card:hover {
+  transform: scale(1.05) translateY(-10px); /* Increased scale and lifted the card on hover for a dynamic effect */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Increased box-shadow on hover for depth */
+}
+
+/* Improved styling for card name and price section */
+.home-page .card-name-price {
+  text-align: center; /* Centered the content for a modern look */
+}
+
+.home-page .card-price {
+  color: #4CAF50; /* Changed to a more standard green color */
+  font-weight: bold;
+  margin-top: 10px; /* Added margin for separation */
+  font-size: 18px; /* Increased font size for emphasis */
+}
+
+/* Improved button styling for better consistency */
+.home-page button {
+  border: none;
+  border-radius: 20px; /* Increased border-radius for a more rounded button */
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px; /* Increased padding for a more clickable button appearance */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Added transition for a subtle scale change on hover */
+}
+
+/* Improved styling for "Add to Cart" button */
+.home-page .add-to-cart-button {
+  background-color: #FF6347; /* Set button color to a coral tone for contrast */
+  color: #fff; /* Set text color to white for better visibility */
+}
+
+.home-page .add-to-cart-button:hover {
+  transform: scale(1.1); /* Increased scale on hover for a more noticeable effect */
+}
+
+/* Improved styling for "More Details" button */
+.home-page .more-details-button {
+  background-color: #4169E1; /* Set button color to a royal blue tone for contrast */
+  color: #fff; /* Set text color to white for better visibility */
+}
+
+.home-page .more-details-button:hover {
+  transform: scale(1.1); /* Increased scale on hover for a more noticeable effect */
+}
+
+/* Improved styling for card text */
+.home-page .card-text {
+  color: #5a5a5a; /* Adjusted text color for better contrast */
+  margin-top: 10px; /* Added margin for separation */
+  text-align: justify; /* Justified text for a clean and modern look */
+}
+
+/* Added transition for card image hover effect */
+.home-page .card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.home-page .card img:hover {
+  transform: scale(1.1); /* Increased scale for a more noticeable hover effect */
+}
+
+/* Improved styling for filters section */
+.filters h4 {
+  margin-top: 60px; /* Adjusted margin for better separation */
+  color: #333; /* Darkened text color for better readability */
+  border-bottom: 2px solid rgba(128, 128, 128, 0.3); /* Increased border thickness */
+  padding-bottom: 10px; /* Added padding for separation from content */
+  text-align: center; /* Centered the text for a modern look */
+}
+
+/* Improved styling for checkboxes and radio buttons */
+.ant-checkbox-wrapper,
+.ant-radio-wrapper {
+  margin: 10px 5px; /* Adjusted margin for better spacing */
+  display: inline-block; /* Displayed checkboxes and radio buttons in a line */
+}
+
+/* Improved styling for the "Load More" button */
+.loadmore {
+  color: #4CAF50; /* Changed to a more standard green color */
+  font-weight: bold;
+  font-size: 18px; /* Adjusted font size for better consistency */
+  margin-top: 20px;
+  text-align: center; /* Centered the text for a modern look */
+  cursor: pointer;
+  transition: color 0.3s ease-in-out; /* Added transition for a smooth color change on hover */
+}
+
+.loadmore:hover {
+  color: #45a049; /* Darkened text color on hover for a subtle effect */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Added text shadow on hover for depth */
+}

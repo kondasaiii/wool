@@ -1,0 +1,63 @@
+/* Improved styling for product details section */
+.product-details {
+  margin-top: 80px; /* Adjusted margin for better spacing */
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centered content horizontally */
+  text-align: center; /* Centered text for a cleaner look */
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px; /* Added margin for separation */
+  color: #333; /* Darkened text color for better readability */
+}
+
+/* Improved styling for similar products section */
+.similar-products .card {
+  background-color: rgba(128, 128, 128, 0.1);
+  width: 18rem;
+  margin: 20px; /* Added margin for separation between cards */
+  border-radius: 20px; /* Added border-radius for a more rounded look */
+  padding: 20px; /* Added padding for better content spacing */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Added a more pronounced box-shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Added transitions for a smoother effect */
+}
+
+.similar-products .card-name-price {
+  display: flex;
+  flex-direction: column; /* Adjusted flex direction for better stacking */
+}
+
+.similar-products .card-price {
+  color: #4CAF50; /* Changed to a more standard green color */
+  font-weight: bold;
+  margin-top: 10px; /* Added margin for separation */
+}
+
+.similar-products button {
+  border: none;
+  border-radius: 20px; /* Increased border-radius for a more rounded button */
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #333; /* Darkened button color for better contrast */
+  color: #fff; /* Set text color to white for better visibility */
+  padding: 15px; /* Increased padding for a more clickable button appearance */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Added transition for a smooth color change on hover */
+}
+
+.similar-products .card-text {
+  color: #5a5a5a; /* Adjusted text color for better contrast */
+  margin-top: 10px; /* Added margin for separation */
+}
+
+.similar-products .card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.similar-products .card img:hover {
+  transform: scale(1.1); /* Increased scale for a more noticeable hover effect */
+}
